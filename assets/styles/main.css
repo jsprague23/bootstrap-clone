@@ -1,16 +1,61 @@
 body, html {
-    height: 100%;
+    height:100%;
+    width:100%;
+    margin:0;
+    
+}
+
+.header{
+    display: block;
+}
+
+.border1 {
+    padding:5vh 5vw;
 }
 .image1{
     background-image: url("../vitalis-hirschmann-502198-unsplash.jpg");
 
-    height: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;   
 }
 
 .text{
+    color: #F7F7F7;
+    padding:40vh 20vh;
+}
+
+.bg1 {
+    color: #F7F7F7;
+        background-color:#ff570C;
+    height:100%;
+}
+
+.image2{
+    background-image: url("../weird-google-maps-7-not-atlantis-136404795754303901-160324101951.jpg");
+
+    height: 44vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.text1 {
     color:white;
-    padding:0,0,0,200rem;
+    background-color:black;
+}
+
+.icon {
+
+}
+
+.text2 {
+    background-color:#323643;
+    color:#606470;
+}
+
+.button {
+    background-color:#ff570C;
+    color:#F7F7F7;
 }
